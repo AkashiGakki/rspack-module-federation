@@ -1,0 +1,6 @@
+{
+  "name": "rspack-module-federation",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@8.1.0"
+}
