@@ -1,3 +1,7 @@
 export default function Button() {
-  return <div>Provider button</div>;
+  return (
+    <div>
+      <button>Provider button</button>
+    </div>
+  )
 }
