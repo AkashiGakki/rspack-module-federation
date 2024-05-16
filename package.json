@@ -2,5 +2,22 @@
   "name": "rspack-module-federation",
   "private": true,
   "version": "1.0.0",
-  "packageManager": "pnpm@8.1.0"
+  "packageManager": "pnpm@8.1.0",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.18.0",
+    "@eslint/js": "^9.2.0",
+    "eslint": "^9.2.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-vue": "^9.26.0",
+    "globals": "^15.2.0",
+    "typescript-eslint": "^7.9.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@antfu"
+    ]
+  }
 }
