@@ -1,6 +1,6 @@
 import './App.css';
 // federation_provider 提供的远程组件
-import ProviderButton from 'federation_provider/button';
+import ProviderButton from 'providerReact/button';
 
 const App = () => {
   return (

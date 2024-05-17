@@ -13,10 +13,10 @@ export default defineConfig({
   tools: {
     rspack: (config, { appendPlugins }) => {
       // 需要设置一个唯一值不能和其他应用相等
-      config.output!.uniqueName = 'federation_provider';
+      config.output!.uniqueName = 'providerReact';
       appendPlugins([
         new ModuleFederationPlugin({
-          name: 'federation_provider',
+          name: 'providerReact',
           exposes: {
             './button': './src/components/button.tsx',
           },
