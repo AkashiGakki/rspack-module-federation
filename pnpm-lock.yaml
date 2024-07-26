@@ -26,25 +26,6 @@ importers:
         specifier: ^7.9.0
         version: 7.9.0(eslint@9.2.0)(typescript@5.4.2)
 
-  packages/consumer-vue:
-    dependencies:
-      vue:
-        specifier: ^3.4.19
-        version: 3.4.19(typescript@5.4.2)
-    devDependencies:
-      '@module-federation/enhanced':
-        specifier: ^0.1.13
-        version: 0.1.13(typescript@5.4.2)(vue-tsc@1.8.27)(webpack@5.91.0)
-      '@rsbuild/core':
-        specifier: ^0.6.15
-        version: 0.6.15
-      '@rsbuild/plugin-vue':
-        specifier: ^0.6.15
-        version: 0.6.15(@rsbuild/core@0.6.15)(@vue/compiler-sfc@3.4.27)(vue@3.4.19)
-      typescript:
-        specifier: ^5.4.2
-        version: 5.4.2
-
   packages/federation-consumer:
     dependencies:
       react:
@@ -97,6 +78,25 @@ importers:
       '@types/react-dom':
         specifier: ^18.3.0
         version: 18.3.0
+      typescript:
+        specifier: ^5.4.2
+        version: 5.4.2
+
+  packages/provider-vue:
+    dependencies:
+      vue:
+        specifier: ^3.4.19
+        version: 3.4.19(typescript@5.4.2)
+    devDependencies:
+      '@module-federation/enhanced':
+        specifier: ^0.1.13
+        version: 0.1.13(typescript@5.4.2)(vue-tsc@1.8.27)(webpack@5.91.0)
+      '@rsbuild/core':
+        specifier: ^0.6.15
+        version: 0.6.15
+      '@rsbuild/plugin-vue':
+        specifier: ^0.6.15
+        version: 0.6.15(@rsbuild/core@0.6.15)(@vue/compiler-sfc@3.4.27)(vue@3.4.19)
       typescript:
         specifier: ^5.4.2
         version: 5.4.2
